@@ -494,6 +494,9 @@ img {
   margin: 0 auto;
   overflow-x: hidden;
 }
+.collapse {
+  transform: translate(12.8125rem);
+}
 .pull-right {
   transform: translate(12.8125rem);
 }
@@ -620,6 +623,7 @@ img {
   z-index: 9;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  transition: all 0.5s 0.1s;
 }
 .header h2 {
   text-align: center;
@@ -637,6 +641,9 @@ img {
 .header .search {
   top: 0.8125rem;
   right: 0.75rem;
+}
+.body{
+  transition: all 0.5s 0.1s;
 }
 .body .mark {
   width: 100%;
@@ -732,6 +739,9 @@ img {
   color: #7f7f7f;
   font-size: 0.6875rem;
   padding-right: 4.375rem;
+}
+.body .posts .brief p.only{
+  padding-right: 0;
 }
 .body .posts .thumb {
   width: 3.75rem;
@@ -865,4 +875,8 @@ img {
 }
 .body .settings li span {
   float: right;
+}
+.loading{
+  width:2rem;
+  margin:1rem auto 0;
 }
